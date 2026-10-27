@@ -2,157 +2,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shop Alternative Silver Jewelry | Silver Ritual</title>
-<meta name="description" content="Explore alternative silver jewelry at Silver Ritual, including statement necklaces, gothic charm bracelets, and silver earrings.">
-<style>
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  background: #101010;
-  color: #f1f1f1;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-.notice {
-  background: #292929;
-  padding: 12px 20px;
-  text-align: center;
-  font-size: 12px;
-}
-header {
-  padding: 25px 20px;
-  text-align: center;
-  border-bottom: 1px solid #555;
-}
-.logo {
-  font-family: Georgia, serif;
-  font-size: 34px;
-  letter-spacing: 5px;
-  margin: 0;
-}
-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 22px;
-  margin-top: 18px;
-}
-nav a {
-  color: #e0e0e0;
-  text-decoration: none;
-}
-nav a:hover { text-decoration: underline; }
-main {
-  max-width: 1100px;
-  margin: auto;
-  padding: 60px 20px;
-}
-h1, h2, h3 { font-family: Georgia, serif; }
-h1 { text-align: center; font-size: 44px; }
-.intro {
-  text-align: center;
-  color: #bbb;
-  max-width: 650px;
-  margin: 0 auto 45px;
-}
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 24px;
-}
-.product {
-  background: #202020;
-  border: 1px solid #444;
-  padding: 25px;
-  text-align: center;
-}
-.product-art {
-  background: linear-gradient(135deg, #555, #171717);
-  padding: 65px 15px;
-  font-size: 48px;
-}
-.price {
-  color: #d0d0d0;
-  font-weight: bold;
-  font-size: 20px;
-}
-footer {
-  background: #080808;
-  text-align: center;
-  padding: 35px 20px;
-  color: #bbb;
-  font-size: 13px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop Gothic Silver Jewelry | Silver Ritual</title>
+  <meta name="description" content="Explore fictional Y2K silver necklaces, gothic charm bracelets, chokers, and celestial earrings at Silver Ritual.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
 
-<header>
-  <p class="logo">SILVER RITUAL</p>
-  <nav>
+<header class="mast">
+  <div class="brand">✦ Silver Ritual ✦</div>
+  <nav class="nav" aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="shop.html">Shop</a>
+    <a href="shop.html" aria-current="page">Shop</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <main>
-  <h1>Shop the Collection</h1>
-  <p class="intro">Discover expressive silver jewelry inspired by gothic romance, vintage symbolism, and modern individuality.</p>
+  <section class="container center">
+    <p class="eyebrow">Silver Ritual / Collection 001</p>
+    <h1>Shop the Collection ✦</h1>
+    <p class="lead">Gothic silver jewelry, celestial charms, and nostalgic Y2K statement pieces. All products and prices are fictional.</p>
 
-  <div class="products">
-    <article class="product">
-      <div class="product-art">✝</div>
-      <h2>Midnight Relic Necklace</h2>
-      <p>A layered silver-tone chain necklace featuring an ornate cross pendant.</p>
-      <p class="price">$32</p>
-    </article>
+    <div class="grid">
 
-    <article class="product">
-      <div class="product-art">✦</div>
-      <h2>Chrome Heart Bracelet</h2>
-      <p>A silver charm bracelet featuring hearts, polished chains, and nostalgic details.</p>
-      <p class="price">$24</p>
-    </article>
+      <article class="card">
+        <img src="images/midnight-relic.svg" alt="Layered silver-tone necklace with ornate cross pendant">
+        <p class="tag">Silver Ritual / 2026</p>
+        <h2>Midnight Relic Necklace</h2>
+        <p>Layered silver-tone chains meet an ornate cross pendant for a dark-romantic statement.</p>
+        <p class="price">$32</p>
+      </article>
 
-    <article class="product">
-      <div class="product-art">☾</div>
-      <h2>Lunar Veil Earrings</h2>
-      <p>Silver crescent moon earrings with delicate hanging chains.</p>
-      <p class="price">$18</p>
-    </article>
+      <article class="card">
+        <img src="images/chrome-heart.svg" alt="Silver charm bracelet with heart and cross charms">
+        <p class="tag">Silver Ritual / 2026</p>
+        <h2>Chrome Heart Bracelet</h2>
+        <p>Polished silver-tone links, heart charms, and nostalgic Y2K energy.</p>
+        <p class="price">$24</p>
+      </article>
 
-    <article class="product">
-      <div class="product-art">✧</div>
-      <h2>Silver Thorn Choker</h2>
-      <p>A statement choker with silver-tone links and sculptural thorn details.</p>
-      <p class="price">$36</p>
-    </article>
+      <article class="card">
+        <img src="images/lunar-veil.svg" alt="Silver crescent moon drop earrings with delicate chains">
+        <p class="tag">Silver Ritual / 2026</p>
+        <h2>Lunar Veil Earrings</h2>
+        <p>Crescent moon earrings with delicate chains and celestial movement.</p>
+        <p class="price">$18</p>
+      </article>
 
-    <article class="product">
-      <div class="product-art">♡</div>
-      <h2>Ghost Heart Necklace</h2>
-      <p>A delicate silver heart pendant paired with a vintage-inspired chain.</p>
-      <p class="price">$28</p>
-    </article>
+      <article class="card">
+        <img src="images/silver-thorn.svg" alt="Silver-tone statement choker with thorn-inspired details">
+        <p class="tag">Silver Ritual / 2026</p>
+        <h2>Silver Thorn Choker</h2>
+        <p>A sculptural silver-tone choker with rebellious thorn details.</p>
+        <p class="price">$36</p>
+      </article>
 
-    <article class="product">
-      <div class="product-art">✶</div>
-      <h2>Afterglow Charm Bracelet</h2>
-      <p>A playful silver charm bracelet with stars, crystals, and celestial details.</p>
-      <p class="price">$26</p>
-    </article>
-  </div>
+      <article class="card">
+        <img src="images/ghost-heart.svg" alt="Silver heart pendant necklace on a vintage-inspired chain">
+        <p class="tag">Silver Ritual / 2026</p>
+        <h2>Ghost Heart Necklace</h2>
+        <p>A luminous heart pendant suspended from a vintage-inspired chain.</p>
+        <p class="price">$28</p>
+      </article>
+
+      <article class="card">
+        <img src="images/afterglow.svg" alt="Silver charm bracelet with stars crystals and celestial motifs">
+        <p class="tag">Silver Ritual / 2026</p>
+        <h2>Afterglow Charm Bracelet</h2>
+        <p>Stars, crystals, and celestial charms create a playful metallic finish.</p>
+        <p class="price">$26</p>
+      </article>
+
+    </div>
+
+    <p class="fine">Educational concept only — no purchases or orders are available.</p>
+  </section>
 </main>
 
-<footer>
-  <p>© 2026 Silver Ritual</p>
-  <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+<footer class="footer">
+  <p>✦ SILVER RITUAL ✦</p>
+  <p>© 2026 Silver Ritual · Adornment with an edge.</p>
+  <p class="footnotice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
 </footer>
 
 </body>
