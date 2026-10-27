@@ -2,163 +2,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Silver Ritual | Alternative Jewelry Boutique</title>
-<meta name="description" content="Discover the story behind Silver Ritual, a fictional alternative jewelry boutique inspired by gothic romance, silver accessories, and individual style.">
-<style>
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  background: #101010;
-  color: #f1f1f1;
-  font-family: Arial, sans-serif;
-  line-height: 1.7;
-}
-.notice {
-  background: #292929;
-  padding: 12px 20px;
-  text-align: center;
-  font-size: 12px;
-}
-header {
-  padding: 25px 20px;
-  text-align: center;
-  border-bottom: 1px solid #555;
-}
-.logo {
-  font-family: Georgia, serif;
-  font-size: 34px;
-  letter-spacing: 5px;
-  margin: 0;
-}
-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 22px;
-  margin-top: 18px;
-}
-nav a {
-  color: #e0e0e0;
-  text-decoration: none;
-}
-nav a:hover { text-decoration: underline; }
-main {
-  max-width: 850px;
-  margin: auto;
-  padding: 65px 24px;
-}
-h1, h2 {
-  font-family: Georgia, serif;
-  text-align: center;
-}
-h1 { font-size: clamp(36px, 6vw, 55px); }
-h2 { margin-top: 55px; }
-.intro {
-  color: #c9c9c9;
-  font-size: 19px;
-  text-align: center;
-}
-.content {
-  margin-top: 45px;
-}
-.values {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin-top: 35px;
-}
-.value {
-  background: #202020;
-  border: 1px solid #444;
-  padding: 25px;
-  text-align: center;
-}
-.value h3 {
-  font-family: Georgia, serif;
-}
-.button {
-  display: inline-block;
-  padding: 13px 28px;
-  border: 1px solid #bbb;
-  color: white;
-  text-decoration: none;
-  margin-top: 25px;
-}
-.button:hover {
-  background: #ddd;
-  color: #111;
-}
-.cta {
-  text-align: center;
-  margin-top: 60px;
-}
-footer {
-  background: #080808;
-  padding: 35px 20px;
-  text-align: center;
-  color: #bbb;
-  font-size: 13px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Story | Silver Ritual Jewelry Boutique</title>
+  <meta name="description" content="Meet Silver Ritual, a fictional alternative jewelry boutique inspired by gothic romance, Y2K accessories, and self-expression.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
 
-<header>
-  <p class="logo">SILVER RITUAL</p>
-  <nav>
+<header class="mast">
+  <div class="brand">✦ Silver Ritual ✦</div>
+  <nav class="nav" aria-label="Main navigation">
     <a href="index.html">Home</a>
     <a href="shop.html">Shop</a>
-    <a href="about.html">About</a>
+    <a href="about.html" aria-current="page">About</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <main>
-  <h1>Our Story</h1>
-  <p class="intro">Silver Ritual was imagined for those who see jewelry as more than an accessory. It is an extension of identity.</p>
+  <section class="container center">
+    <p class="eyebrow">The Story / The Aesthetic</p>
+    <h1>Our Story ✧</h1>
+    <p class="lead">Jewelry as an extension of identity.</p>
 
-  <div class="content">
-    <h2>Born From Individuality</h2>
-    <p>Silver Ritual is a fictional alternative jewelry boutique inspired by the intersection of gothic romance, vintage symbolism, and contemporary street style. The concept celebrates the idea that personal style should never require permission.</p>
+    <div class="feature">
+      <div class="prose" style="text-align:left">
+        <h2>Born From Individuality</h2>
+        <p>Silver Ritual is a fictional jewelry boutique imagined at the intersection of gothic romance, vintage symbolism, and contemporary street style. Its collections celebrate the idea that personal style never needs permission.</p>
+        <p>Layered silver-tone necklaces, nostalgic charm bracelets, and celestial earrings capture a mix of elegance and rebellion.</p>
+      </div>
 
-    <p>From layered silver necklaces to charm bracelets and statement earrings, every imagined collection is designed around expressive details and unexpected combinations. Dark metallic finishes, celestial symbols, ornate crosses, and nostalgic charms define the Silver Ritual aesthetic.</p>
+      <img src="images/midnight-relic.svg" alt="Ornate cross necklace in a dark Y2K editorial style">
+    </div>
 
-    <h2>Our Design Philosophy</h2>
-    <p>We believe that jewelry can tell a story without saying a word. Silver Ritual combines timeless silver tones with bold, unconventional designs to create a distinctive visual identity.</p>
-
-    <p>Our fictional collections draw inspiration from alternative fashion, early-2000s accessories, and romantic gothic imagery. The result is a boutique concept that balances elegance with rebellion.</p>
+    <div class="ornament">✦ ✧ ✦</div>
 
     <h2>What Defines Silver Ritual</h2>
-    <div class="values">
-      <div class="value">
+
+    <div class="grid">
+      <div class="panel">
+        <div class="sparkle">✧</div>
         <h3>Individuality</h3>
-        <p>Expressing personal identity through distinctive accessories.</p>
+        <p>Pieces that reflect a personal point of view.</p>
       </div>
-      <div class="value">
+
+      <div class="panel">
+        <div class="sparkle">✦</div>
         <h3>Creativity</h3>
-        <p>Exploring unexpected combinations of materials, symbols, and styles.</p>
+        <p>Unexpected combinations of symbols, textures, and silver tones.</p>
       </div>
-      <div class="value">
+
+      <div class="panel">
+        <div class="sparkle">♡</div>
         <h3>Self-Expression</h3>
-        <p>Celebrating jewelry as a form of personal storytelling.</p>
+        <p>Accessories that tell stories without words.</p>
       </div>
     </div>
-  </div>
 
-  <div class="cta">
-    <h2>Find Your Ritual</h2>
-    <p>Explore statement pieces designed for an unapologetically individual style.</p>
-    <a class="button" href="shop.html">EXPLORE THE COLLECTION</a>
-  </div>
+    <p><a class="btn" href="shop.html">Explore the Collection</a></p>
+  </section>
 </main>
 
-<footer>
-  <p>© 2026 Silver Ritual</p>
-  <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+<footer class="footer">
+  <p>✦ SILVER RITUAL ✦</p>
+  <p>© 2026 Silver Ritual · Adornment with an edge.</p>
+  <p class="footnotice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
 </footer>
 
 </body>
