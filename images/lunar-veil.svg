@@ -1,0 +1,109 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".3" stop-color="#89899a"/>
+      <stop offset=".6" stop-color="#eeeeff"/>
+      <stop offset="1" stop-color="#555565"/>
+    </linearGradient>
+
+    <radialGradient id="background">
+      <stop offset="0" stop-color="#393344"/>
+      <stop offset="1" stop-color="#08080d"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#background)"/>
+
+  <!-- Earring hooks -->
+  <g fill="none" stroke="url(#silver)"
+     stroke-width="5" stroke-linecap="round">
+    <path d="M130 110 C105 80 110 55 130 55
+             C150 55 150 85 135 100"/>
+    <path d="M270 110 C245 80 250 55 270 55
+             C290 55 290 85 275 100"/>
+  </g>
+
+  <!-- Connecting rings -->
+  <g fill="none" stroke="#e6e6f2" stroke-width="4">
+    <circle cx="130" cy="118" r="10"/>
+    <circle cx="270" cy="118" r="10"/>
+  </g>
+
+  <!-- Crescent moon charms -->
+  <g fill="url(#silver)" stroke="#ffffff" stroke-width="1.5">
+    <path d="M145 145
+             A65 65 0 1 0 145 265
+             A47 47 0 1 1 145 145Z"/>
+    <path d="M285 145
+             A65 65 0 1 0 285 265
+             A47 47 0 1 1 285 145Z"/>
+  </g>
+
+  <!-- Hanging silver chains -->
+  <g stroke="url(#silver)" stroke-width="3"
+     stroke-dasharray="7 5" fill="none">
+    <path d="M105 245 L105 335"/>
+    <path d="M130 265 L130 365"/>
+    <path d="M155 245 L155 325"/>
+
+    <path d="M245 245 L245 325"/>
+    <path d="M270 265 L270 365"/>
+    <path d="M295 245 L295 335"/>
+  </g>
+
+  <!-- Star charms -->
+  <g fill="url(#silver)" stroke="#ffffff">
+    <path d="M105 330 L110 341 L122 345
+             L110 349 L105 360 L100 349
+             L88 345 L100 341Z"/>
+
+    <path d="M130 355 L136 369 L150 375
+             L136 381 L130 395 L124 381
+             L110 375 L124 369Z"/>
+
+    <path d="M270 355 L276 369 L290 375
+             L276 381 L270 395 L264 381
+             L250 375 L264 369Z"/>
+
+    <path d="M295 330 L300 341 L312 345
+             L300 349 L295 360 L290 349
+             L278 345 L290 341Z"/>
+  </g>
+
+  <!-- Decorative sparkles -->
+  <g fill="#ffffff">
+    <path d="M65 105 L70 119 L84 124
+             L70 129 L65 143 L60 129
+             L46 124 L60 119Z"/>
+
+    <path d="M330 165 L335 180 L350 185
+             L335 190 L330 205 L325 190
+             L310 185 L325 180Z"/>
+
+    <circle cx="75" cy="285" r="2"/>
+    <circle cx="320" cy="90" r="2"/>
+    <circle cx="200" cy="75" r="3"/>
+  </g>
+
+  <!-- Product title -->
+  <text x="200" y="435"
+        fill="#e8e5ee"
+        font-family="Georgia"
+        font-size="19"
+        letter-spacing="3"
+        text-anchor="middle">
+    LUNAR VEIL
+  </text>
+
+  <text x="200" y="458"
+        fill="#aaa4b5"
+        font-family="Arial"
+        font-size="10"
+        letter-spacing="4"
+        text-anchor="middle">
+    SILVER RITUAL
+  </text>
+</svg>
