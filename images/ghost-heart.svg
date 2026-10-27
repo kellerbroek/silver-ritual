@@ -1,0 +1,124 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".25" stop-color="#858596"/>
+      <stop offset=".5" stop-color="#f5f5ff"/>
+      <stop offset=".75" stop-color="#656575"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <radialGradient id="background">
+      <stop offset="0" stop-color="#403744"/>
+      <stop offset="1" stop-color="#09090e"/>
+    </radialGradient>
+
+    <radialGradient id="gem">
+      <stop offset="0" stop-color="#71617f"/>
+      <stop offset=".6" stop-color="#29212f"/>
+      <stop offset="1" stop-color="#0e0b13"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark editorial background -->
+  <rect width="400" height="500" fill="url(#background)"/>
+
+  <!-- Silver necklace chain -->
+  <path d="M65 45
+           C80 145 140 185 200 205
+           C260 185 320 145 335 45"
+        fill="none"
+        stroke="#666675"
+        stroke-width="9"/>
+
+  <path d="M65 45
+           C80 145 140 185 200 205
+           C260 185 320 145 335 45"
+        fill="none"
+        stroke="url(#chrome)"
+        stroke-width="5"
+        stroke-dasharray="11 5"/>
+
+  <!-- Pendant connector -->
+  <circle cx="200" cy="205" r="13"
+          fill="none"
+          stroke="url(#chrome)"
+          stroke-width="6"/>
+
+  <!-- Gothic heart pendant -->
+  <path d="M200 345
+           C160 310 105 270 120 225
+           C135 180 185 190 200 220
+           C215 190 265 180 280 225
+           C295 270 240 310 200 345Z"
+        fill="url(#chrome)"
+        stroke="#ffffff"
+        stroke-width="3"/>
+
+  <!-- Dark gemstone center -->
+  <path d="M200 325
+           C170 300 135 270 145 235
+           C155 210 187 218 200 242
+           C213 218 245 210 255 235
+           C265 270 230 300 200 325Z"
+        fill="url(#gem)"
+        stroke="#d4c9df"
+        stroke-width="2"/>
+
+  <!-- Gemstone facets -->
+  <path d="M200 242 L180 275 L200 315 L220 275Z"
+        fill="#4c3d58"
+        opacity=".65"/>
+
+  <path d="M180 275 L145 235 L200 242Z"
+        fill="#877393"
+        opacity=".35"/>
+
+  <path d="M220 275 L255 235 L200 242Z"
+        fill="#9d8aab"
+        opacity=".3"/>
+
+  <!-- Rhinestone accents -->
+  <g fill="#ffffff">
+    <circle cx="145" cy="225" r="4"/>
+    <circle cx="165" cy="207" r="4"/>
+    <circle cx="235" cy="207" r="4"/>
+    <circle cx="255" cy="225" r="4"/>
+    <circle cx="200" cy="336" r="4"/>
+  </g>
+
+  <!-- Decorative sparkles -->
+  <g fill="#ffffff">
+    <path d="M75 155 L82 175 L102 182
+             L82 189 L75 209 L68 189
+             L48 182 L68 175Z"/>
+
+    <path d="M320 285 L326 302 L343 308
+             L326 314 L320 331 L314 314
+             L297 308 L314 302Z"/>
+
+    <circle cx="110" cy="355" r="2"/>
+    <circle cx="300" cy="120" r="3"/>
+    <circle cx="260" cy="365" r="2"/>
+  </g>
+
+  <!-- Product name -->
+  <text x="200" y="430"
+        fill="#e8e4ee"
+        font-family="Georgia"
+        font-size="19"
+        letter-spacing="3"
+        text-anchor="middle">
+    GHOST HEART
+  </text>
+
+  <text x="200" y="456"
+        fill="#aaa4b5"
+        font-family="Arial"
+        font-size="10"
+        letter-spacing="4"
+        text-anchor="middle">
+    SILVER RITUAL
+  </text>
+</svg>
