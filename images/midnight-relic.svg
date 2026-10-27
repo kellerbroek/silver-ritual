@@ -1,0 +1,46 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".3" stop-color="#8a8995"/>
+      <stop offset=".6" stop-color="#eeeeff"/>
+      <stop offset="1" stop-color="#555562"/>
+    </linearGradient>
+    <radialGradient id="bg">
+      <stop offset="0" stop-color="#393342"/>
+      <stop offset="1" stop-color="#09090d"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#bg)"/>
+
+  <g fill="none" stroke="url(#silver)" stroke-width="6">
+    <path d="M65 40 Q85 150 200 205 Q315 150 335 40"/>
+    <path d="M100 45 Q110 170 200 245 Q290 170 300 45"/>
+  </g>
+
+  <g fill="url(#silver)" stroke="#eeeeff" stroke-width="2">
+    <rect x="185" y="200" width="30" height="155" rx="6"/>
+    <rect x="135" y="240" width="130" height="30" rx="6"/>
+    <circle cx="200" cy="255" r="15" fill="#34303e"/>
+  </g>
+
+  <g fill="#ffffff">
+    <path d="M70 120 L76 137 L93 143 L76 149 L70 166 L64 149 L47 143 L64 137Z"/>
+    <path d="M320 260 L325 273 L338 278 L325 283 L320 296 L315 283 L302 278 L315 273Z"/>
+    <circle cx="105" cy="330" r="2"/>
+    <circle cx="295" cy="110" r="2"/>
+  </g>
+
+  <text x="200" y="435" fill="#dedbe5"
+        font-family="Georgia" font-size="19"
+        letter-spacing="3" text-anchor="middle">
+    MIDNIGHT RELIC
+  </text>
+  <text x="200" y="458" fill="#9995a5"
+        font-family="Arial" font-size="10"
+        letter-spacing="4" text-anchor="middle">
+    SILVER RITUAL
+  </text>
+</svg>
