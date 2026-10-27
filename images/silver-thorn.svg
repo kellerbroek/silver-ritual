@@ -1,0 +1,100 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".25" stop-color="#777786"/>
+      <stop offset=".55" stop-color="#f2f2ff"/>
+      <stop offset=".8" stop-color="#777482"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <radialGradient id="background">
+      <stop offset="0" stop-color="#403640"/>
+      <stop offset="1" stop-color="#08080c"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark editorial background -->
+  <rect width="400" height="500" fill="url(#background)"/>
+
+  <!-- Choker band -->
+  <path d="M65 190
+           C90 130 310 130 335 190
+           C325 250 75 250 65 190Z"
+        fill="#17171d"
+        stroke="url(#chrome)"
+        stroke-width="9"/>
+
+  <!-- Chrome chain across choker -->
+  <path d="M72 190 C120 220 280 220 328 190"
+        fill="none"
+        stroke="url(#chrome)"
+        stroke-width="7"
+        stroke-dasharray="13 6"/>
+
+  <!-- Upper thorns -->
+  <g fill="url(#chrome)" stroke="#f5f5ff" stroke-width="1">
+    <path d="M90 163 L110 95 L125 157Z"/>
+    <path d="M145 146 L160 75 L177 145Z"/>
+    <path d="M200 142 L212 65 L228 146Z"/>
+    <path d="M255 150 L270 83 L287 160Z"/>
+    <path d="M310 170 L327 105 L339 187Z"/>
+  </g>
+
+  <!-- Lower hanging spikes -->
+  <g fill="url(#chrome)" stroke="#ffffff" stroke-width="1">
+    <path d="M100 225 L115 295 L128 225Z"/>
+    <path d="M150 237 L165 325 L180 237Z"/>
+    <path d="M205 240 L220 345 L235 240Z"/>
+    <path d="M260 234 L275 320 L290 234Z"/>
+  </g>
+
+  <!-- Center gothic cross charm -->
+  <g fill="url(#chrome)" stroke="#ffffff" stroke-width="1.5">
+    <rect x="194" y="245" width="20" height="100" rx="4"/>
+    <rect x="168" y="270" width="72" height="20" rx="4"/>
+    <circle cx="204" cy="280" r="9" fill="#3a3440"/>
+  </g>
+
+  <!-- Rhinestone details -->
+  <g fill="#ffffff">
+    <circle cx="110" cy="190" r="4"/>
+    <circle cx="160" cy="184" r="4"/>
+    <circle cx="210" cy="180" r="4"/>
+    <circle cx="260" cy="184" r="4"/>
+    <circle cx="310" cy="190" r="4"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#ffffff">
+    <path d="M60 90 L67 108 L85 115
+             L67 122 L60 140 L53 122
+             L35 115 L53 108Z"/>
+    <path d="M330 300 L336 316 L352 322
+             L336 328 L330 344 L324 328
+             L308 322 L324 316Z"/>
+    <circle cx="80" cy="335" r="2"/>
+    <circle cx="320" cy="75" r="3"/>
+    <circle cx="280" cy="370" r="2"/>
+  </g>
+
+  <!-- Product name -->
+  <text x="200" y="430"
+        fill="#e8e4ed"
+        font-family="Georgia"
+        font-size="19"
+        letter-spacing="3"
+        text-anchor="middle">
+    SILVER THORN
+  </text>
+
+  <text x="200" y="456"
+        fill="#aaa4b5"
+        font-family="Arial"
+        font-size="10"
+        letter-spacing="4"
+        text-anchor="middle">
+    SILVER RITUAL
+  </text>
+</svg>
